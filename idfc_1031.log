@@ -1,0 +1,278 @@
+;;; 
+Export: Release 19.0.0.0.0 - Production on Fri Oct 31 17:43:50 2025
+Version 19.3.0.0.0
+
+Copyright (c) 1982, 2019, Oracle and/or its affiliates.  All rights reserved.
+;;; 
+Connected to: Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Starting "SYS"."SYS_EXPORT_SCHEMA_01":  /******** AS SYSDBA schemas=idfc_10 directory=DATA_PUMP_DIR dumpfile=idfc_1031.dmp logfile=idfc_1031.log 
+Processing object type SCHEMA_EXPORT/TABLE/TABLE_DATA
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/STATISTICS/INDEX_STATISTICS
+Processing object type SCHEMA_EXPORT/TABLE/STATISTICS/TABLE_STATISTICS
+Processing object type SCHEMA_EXPORT/STATISTICS/MARKER
+Processing object type SCHEMA_EXPORT/USER
+Processing object type SCHEMA_EXPORT/SYSTEM_GRANT
+Processing object type SCHEMA_EXPORT/ROLE_GRANT
+Processing object type SCHEMA_EXPORT/DEFAULT_ROLE
+Processing object type SCHEMA_EXPORT/TABLESPACE_QUOTA
+Processing object type SCHEMA_EXPORT/PRE_SCHEMA/PROCACT_SCHEMA
+Processing object type SCHEMA_EXPORT/SEQUENCE/SEQUENCE
+Processing object type SCHEMA_EXPORT/TABLE/TABLE
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/INDEX
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/REF_CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/TRIGGER
+. . exported "IDFC_10"."CC_XML_INFO"                     8.859 MB   22203 rows
+. . exported "IDFC_10"."PROCESS_JOB"                     7.912 MB   57111 rows
+. . exported "IDFC_10"."CC_HISTORICAL_DATA"              4.754 MB   75314 rows
+. . exported "IDFC_10"."VERSION_MASTER"                  5.593 GB    2227 rows
+. . exported "IDFC_10"."EXPIRY_URL_RECORDS_COUNT_INFO"   1.803 MB  134638 rows
+. . exported "IDFC_10"."LOGININFO_AUDIT"                 1.106 MB    5366 rows
+. . exported "IDFC_10"."RS_HYBRID_JOB"                   792.3 KB    2877 rows
+. . exported "IDFC_10"."AUDIT_CRM_GETBILL_DATA"          503.3 KB     667 rows
+. . exported "IDFC_10"."RA_JOB_DETAILS"                  465.1 KB     355 rows
+. . exported "IDFC_10"."RA_SCH_MASTER"                   453.5 KB     185 rows
+. . exported "IDFC_10"."UNIPACK_AUDIT_REPORT"            315.4 KB    3623 rows
+. . exported "IDFC_10"."SHORTEN_URL_ERROR"               296.0 KB    1199 rows
+. . exported "IDFC_10"."INS_LOAN_AGREMENT_MASTE"         267.4 KB    2009 rows
+. . exported "IDFC_10"."RS_SMS_JOB"                      215.6 KB     313 rows
+. . exported "IDFC_10"."RA_REPORT_INFO"                  437.7 KB      99 rows
+. . exported "IDFC_10"."RS_STORE_JOB_ARC"                183.1 KB     319 rows
+. . exported "IDFC_10"."RS_MAIL_JOB"                     176.6 KB     270 rows
+. . exported "IDFC_10"."AUDIT_CRM_GET_CC_STMT_DATA"      158.5 KB     493 rows
+. . exported "IDFC_10"."RS_MP_TEMPLATES"                 142.6 KB     306 rows
+. . exported "IDFC_10"."OUTPUT_PROFILES"                 4.647 MB     134 rows
+. . exported "IDFC_10"."SHORTENURL_MASTER_EXPIRE"        145.0 KB     677 rows
+. . exported "IDFC_10"."AMORT_REPAYMENT_SCHEDULE"        140.7 KB    2304 rows
+. . exported "IDFC_10"."INS_LOAN_AGREMENT_REQ"           128.4 KB    2016 rows
+. . exported "IDFC_10"."REPORTS_AUDIT_TABLE"             128.1 KB    1636 rows
+. . exported "IDFC_10"."ACTIVE_VERSION_HISTORY"          108.9 KB    1992 rows
+. . exported "IDFC_10"."CREDITREFUND_XML_INFO"           99.10 KB     484 rows
+. . exported "IDFC_10"."RS_STORE_JOB"                    94.87 KB     144 rows
+. . exported "IDFC_10"."UP_LOGIN_INFO"                   83.61 KB     333 rows
+. . exported "IDFC_10"."IGASERVICE_AUDIT_INFO"           79.71 KB     957 rows
+. . exported "IDFC_10"."UP_MODULE_PERMISSIONS"           90.08 KB    7479 rows
+. . exported "IDFC_10"."INS_ASSETS_WL_MASTER"            66.08 KB     280 rows
+. . exported "IDFC_10"."AMORT_XML_INFO"                  59.05 KB     301 rows
+. . exported "IDFC_10"."STMT_AUDIT_MASTER"               63.81 KB     613 rows
+. . exported "IDFC_10"."RA_DS_COLUMNS"                   61.93 KB    1020 rows
+. . exported "IDFC_10"."INS_LOAN_SANCTION_MASTERE"       53.80 KB     356 rows
+. . exported "IDFC_10"."RA_DATASOURCES"                  49.17 KB      82 rows
+. . exported "IDFC_10"."IDFC_TRANSACTION_STAGE_SUMMARY"  51.50 KB     375 rows
+. . exported "IDFC_10"."INS_LOAN_REJECTION_MASTERE"      48.96 KB     241 rows
+. . exported "IDFC_10"."INS_SOA_MASTER"                  46.83 KB     203 rows
+. . exported "IDFC_10"."DEEPLINK_AUDIT_MASTER_OLD"       46.12 KB     476 rows
+. . exported "IDFC_10"."KFS_LETEER_REJECTION_MASTER"     40.24 KB     187 rows
+. . exported "IDFC_10"."IDFC_TRANSACTION_SUMMARY"        36.43 KB     280 rows
+. . exported "IDFC_10"."RA_SCH_AUDIT"                    38.35 KB     184 rows
+. . exported "IDFC_10"."CC_STMT_SERVICE_AUDIT"           34.95 KB     432 rows
+. . exported "IDFC_10"."COMM_MASTER_ACTIVE"              37.14 KB      31 rows
+. . exported "IDFC_10"."RS_PRINT_JOB"                    34.70 KB       7 rows
+. . exported "IDFC_10"."SHORTEN_URL_TRANSACTION_INFO"    29.44 KB     209 rows
+. . exported "IDFC_10"."SHORTENURL_MASTER"               25.67 KB      61 rows
+. . exported "IDFC_10"."SHORTENURL_MASTER_ERROR"         24.57 KB      61 rows
+. . exported "IDFC_10"."DEEPLINK_AUDIT_MASTER"           24.00 KB      92 rows
+. . exported "IDFC_10"."CMM_MASTER_LOANLOB_ACTIVE"       23.88 KB     129 rows
+. . exported "IDFC_10"."REPORT_MASTER"                   23.19 KB     306 rows
+. . exported "IDFC_10"."UP_AUDIT_REPORT"                 24.14 KB     312 rows
+. . exported "IDFC_10"."TEST_LOGIN_INFO"                 22.89 KB     130 rows
+. . exported "IDFC_10"."RS_DUPBILL_JOB"                  23.84 KB       5 rows
+. . exported "IDFC_10"."COMM_MASTER_LOANLOB_MOV_ERROR"   21.52 KB     105 rows
+. . exported "IDFC_10"."ALS_AUDIT_MASTER"                24.07 KB     197 rows
+. . exported "IDFC_10"."EKIT_AUDIT_MASTER"               19.75 KB      24 rows
+. . exported "IDFC_10"."WF_PROPERTY_MANAGER"             17.67 KB     187 rows
+. . exported "IDFC_10"."VERSION_INFO"                    20.21 KB     306 rows
+. . exported "IDFC_10"."UP_SECURITY_PROFILE"             20.49 KB      53 rows
+. . exported "IDFC_10"."LOAN_XML_INFO"                   19.05 KB     116 rows
+. . exported "IDFC_10"."UP_MODULE_MASTER"                17.01 KB      40 rows
+. . exported "IDFC_10"."BOUNCE_MAIL_SERVER"              16.55 KB      13 rows
+. . exported "IDFC_10"."INS_SPARK_SANCTION_MASTER"        15.5 KB      52 rows
+. . exported "IDFC_10"."SOURCE_INFO"                     15.63 KB     195 rows
+. . exported "IDFC_10"."INDEX_SCHEMA_DEF"                15.31 KB     322 rows
+. . exported "IDFC_10"."RA_DATABASES"                    14.28 KB      45 rows
+. . exported "IDFC_10"."UP_AUDIT_REPORT_TMP"             15.27 KB     665 rows
+. . exported "IDFC_10"."UP_SMS_CONFIGURATIONS"           13.90 KB       2 rows
+. . exported "IDFC_10"."USER_MASTER"                     13.64 KB       3 rows
+. . exported "IDFC_10"."UPLOAD_UTILITY_AUDITING"         11.21 KB      30 rows
+. . exported "IDFC_10"."RA_REPORT_MASTER"                12.46 KB      85 rows
+. . exported "IDFC_10"."UP_ROLE_MASTER"                  11.96 KB      58 rows
+. . exported "IDFC_10"."ALS_ACTIONS"                     12.10 KB       4 rows
+. . exported "IDFC_10"."UP_DEPT_MASTER"                  12.39 KB      61 rows
+. . exported "IDFC_10"."ERGO_CHILD_SPLIT"                11.59 KB      52 rows
+. . exported "IDFC_10"."UP_MODULE_TEMPLATES"             11.76 KB      81 rows
+. . exported "IDFC_10"."NAME"                            11.49 KB      17 rows
+. . exported "IDFC_10"."LOAN_AGREEMENT_RBI_CHARGERS"     11.05 KB      12 rows
+. . exported "IDFC_10"."UP_DESG_MASTER"                  10.91 KB      71 rows
+. . exported "IDFC_10"."RA_PBLSH_REPORTS"                10.86 KB      71 rows
+. . exported "IDFC_10"."SHORTENURL_SCHEDULAR_PROPERTIES"  10.29 KB      35 rows
+. . exported "IDFC_10"."NDC_XML_INFO"                    10.06 KB       8 rows
+. . exported "IDFC_10"."RA_DASHBOARD_INFO"               9.960 KB       2 rows
+. . exported "IDFC_10"."USER_GROUP_MASTER"               9.843 KB       1 rows
+. . exported "IDFC_10"."RA_PUBLISH_DASHBOARDS"           9.515 KB       2 rows
+. . exported "IDFC_10"."CORP_XML_INFO"                   9.671 KB       2 rows
+. . exported "IDFC_10"."ALS_SOURCES"                     9.648 KB       1 rows
+. . exported "IDFC_10"."UP_GROUP_MASTER"                 9.531 KB      29 rows
+. . exported "IDFC_10"."GETPDF_AUDITMASTER"              9.351 KB      15 rows
+. . exported "IDFC_10"."UP_ROLE_HIERARCHY"               9.812 KB     236 rows
+. . exported "IDFC_10"."TEST_DEPT_MASTER"                9.140 KB       4 rows
+. . exported "IDFC_10"."DMS"                             9.078 KB       2 rows
+. . exported "IDFC_10"."RS_MP_PRO_CONFIG"                8.460 KB      12 rows
+. . exported "IDFC_10"."SOURCE_MASTER"                   9.476 KB     193 rows
+. . exported "IDFC_10"."LOANLOB_MASTER"                  8.851 KB      15 rows
+. . exported "IDFC_10"."UP_ROLE_MASTER_TMP"              9.101 KB       4 rows
+. . exported "IDFC_10"."UPLOAD_UTILITY_SERV_DET"         8.656 KB       3 rows
+. . exported "IDFC_10"."UP_AUDIT_CONFIGURATIONS"         8.867 KB      44 rows
+. . exported "IDFC_10"."SHORTENURL_PROPERTIES"           8.437 KB      26 rows
+. . exported "IDFC_10"."ALS_ACCOUNTS"                    8.664 KB       2 rows
+. . exported "IDFC_10"."UP_PERMISSION_MASTER"            9.023 KB     137 rows
+. . exported "IDFC_10"."PERM_MASTER"                     8.335 KB       2 rows
+. . exported "IDFC_10"."RA_DS_JOINS_INFO"                8.406 KB       7 rows
+. . exported "IDFC_10"."REPORT_MASTER_VIR"               7.929 KB       8 rows
+. . exported "IDFC_10"."UP_GROUP_USERS"                  9.234 KB     347 rows
+. . exported "IDFC_10"."DBLOOKUP_TEST"                   8.085 KB       5 rows
+. . exported "IDFC_10"."ALS_QUEUES"                      8.109 KB       1 rows
+. . exported "IDFC_10"."GROUP_MASTER"                    7.921 KB       1 rows
+. . exported "IDFC_10"."TEST_DESG_MASTER"                7.937 KB       5 rows
+. . exported "IDFC_10"."DEEPLINK_REQUEST_MASTER"         7.359 KB      32 rows
+. . exported "IDFC_10"."UP_USER_ROLES"                   8.195 KB     242 rows
+. . exported "IDFC_10"."EMPLOYEE_DETAILS"                7.320 KB       3 rows
+. . exported "IDFC_10"."UP_ORG_MASTER"                   7.289 KB       1 rows
+. . exported "IDFC_10"."TESTING"                         7.265 KB       1 rows
+. . exported "IDFC_10"."UP_USER_ROLES_TMP"               8.460 KB     380 rows
+. . exported "IDFC_10"."CLIENT_MASTER"                   7.125 KB      13 rows
+. . exported "IDFC_10"."KENA"                            7.015 KB       8 rows
+. . exported "IDFC_10"."CUSTOMERS"                       6.898 KB       3 rows
+. . exported "IDFC_10"."PERSONS"                         6.882 KB       6 rows
+. . exported "IDFC_10"."NOMINEE_DETAILS"                 6.835 KB       3 rows
+. . exported "IDFC_10"."GLOBAL_CONFIG"                   10.48 KB       2 rows
+. . exported "IDFC_10"."RA_DASHBORAD_PREFERENCES"        6.828 KB       1 rows
+. . exported "IDFC_10"."AUDIT_TEMPLATES"                 6.671 KB       2 rows
+. . exported "IDFC_10"."SECURITY_PROFILES"               6.554 KB       2 rows
+. . exported "IDFC_10"."RA_SCHEDULER_STATE"              6.515 KB       2 rows
+. . exported "IDFC_10"."UP_LAYOUT_MASTER"                  6.5 KB      41 rows
+. . exported "IDFC_10"."UP_USER_ACTIVE_SESSIONS_TMP"     6.445 KB       3 rows
+. . exported "IDFC_10"."LOOK_UP"                         6.351 KB      15 rows
+. . exported "IDFC_10"."CUST_INDEX"                       6.25 KB       9 rows
+. . exported "IDFC_10"."DEEPLINK_REQUEST_MASTER_OLD"     6.171 KB      18 rows
+. . exported "IDFC_10"."YAHOO"                           6.140 KB      37 rows
+. . exported "IDFC_10"."RA_SHARE_RPT_USERS"              6.117 KB      16 rows
+. . exported "IDFC_10"."UP_DB_DATATYPES"                 6.031 KB       6 rows
+. . exported "IDFC_10"."RS_DOMAINS"                          6 KB       4 rows
+. . exported "IDFC_10"."RA_DS_USERS"                     5.984 KB       7 rows
+. . exported "IDFC_10"."UP_THEME_MASTER"                 5.945 KB       1 rows
+. . exported "IDFC_10"."TRAINEE"                         5.945 KB       3 rows
+. . exported "IDFC_10"."RA_DASHBOARD_PERMISSIONS"        5.929 KB       1 rows
+. . exported "IDFC_10"."RA_DS_PERMISSIONS"               5.921 KB       1 rows
+. . exported "IDFC_10"."RA_RPT_PERMISSIONS"              5.921 KB       1 rows
+. . exported "IDFC_10"."CATEGORY_MASTER"                 5.937 KB       1 rows
+. . exported "IDFC_10"."RA_SHARE_DASHBOARD_USERS"        5.929 KB       1 rows
+. . exported "IDFC_10"."UP_DEPT_DESG"                    6.234 KB      65 rows
+. . exported "IDFC_10"."RA_PBLSH_RPT_USERS"              5.820 KB      30 rows
+. . exported "IDFC_10"."RA_SHARE_RPT_ROLES"              5.671 KB      17 rows
+. . exported "IDFC_10"."RA_PBLSH_RPT_ROLES"              5.632 KB      13 rows
+. . exported "IDFC_10"."RA_FAVORITE_REPORTS"             5.609 KB      11 rows
+. . exported "IDFC_10"."RA_SCH_MAIL_LIST"                5.570 KB       3 rows
+. . exported "IDFC_10"."DUPLICATE"                       5.546 KB       5 rows
+. . exported "IDFC_10"."RA_DS_ROLES"                     5.554 KB       7 rows
+. . exported "IDFC_10"."TESTING_1"                       5.585 KB       5 rows
+. . exported "IDFC_10"."RA_LOCKS"                        5.585 KB       4 rows
+. . exported "IDFC_10"."MAIL_MODULE_MAPPING"             5.539 KB       5 rows
+. . exported "IDFC_10"."RA_PBLSH_DASHBOARD_USERS"        5.523 KB       3 rows
+. . exported "IDFC_10"."RA_PBLSH_DASHBOARD_ROLES"        5.515 KB       2 rows
+. . exported "IDFC_10"."UP_SMS_MAPPING"                  5.492 KB       1 rows
+. . exported "IDFC_10"."TEST_A"                          5.070 KB       1 rows
+. . exported "IDFC_10"."ACTIONS_MASTER"                      0 KB       0 rows
+. . exported "IDFC_10"."ALS_APPLICATIONS"                    0 KB       0 rows
+. . exported "IDFC_10"."ALS_APP_CONFIGURATIONS"              0 KB       0 rows
+. . exported "IDFC_10"."ALS_APP_SOURCES"                     0 KB       0 rows
+. . exported "IDFC_10"."ALS_BLOB_TRIGGERS"                   0 KB       0 rows
+. . exported "IDFC_10"."ALS_CALENDARS"                       0 KB       0 rows
+. . exported "IDFC_10"."ALS_CRON_TRIGGERS"                   0 KB       0 rows
+. . exported "IDFC_10"."ALS_DATAOBJECTS"                     0 KB       0 rows
+. . exported "IDFC_10"."ALS_EVENTS"                          0 KB       0 rows
+. . exported "IDFC_10"."ALS_EVENTS_BACKUP"                   0 KB       0 rows
+. . exported "IDFC_10"."ALS_EVENTS_MIG"                      0 KB       0 rows
+. . exported "IDFC_10"."ALS_FIRED_TRIGGERS"                  0 KB       0 rows
+. . exported "IDFC_10"."ALS_JOB_DETAILS"                     0 KB       0 rows
+. . exported "IDFC_10"."ALS_LISTENERS"                       0 KB       0 rows
+. . exported "IDFC_10"."ALS_LOCKS"                           0 KB       0 rows
+. . exported "IDFC_10"."ALS_PAUSED_TRIGGER_GRPS"             0 KB       0 rows
+. . exported "IDFC_10"."ALS_SCHEDULED_EVENTS"                0 KB       0 rows
+. . exported "IDFC_10"."ALS_SCHEDULER_STATE"                 0 KB       0 rows
+. . exported "IDFC_10"."ALS_SERVERS"                         0 KB       0 rows
+. . exported "IDFC_10"."ALS_SIMPLE_TRIGGERS"                 0 KB       0 rows
+. . exported "IDFC_10"."ALS_SIMPROP_TRIGGERS"                0 KB       0 rows
+. . exported "IDFC_10"."ALS_SOURCE_CHECKIN"                  0 KB       0 rows
+. . exported "IDFC_10"."ALS_TRANS_INFO"                      0 KB       0 rows
+. . exported "IDFC_10"."ALS_TRANS_MASTER"                    0 KB       0 rows
+. . exported "IDFC_10"."ALS_TRIGGERS"                        0 KB       0 rows
+. . exported "IDFC_10"."ALS_TRX_DATA"                        0 KB       0 rows
+. . exported "IDFC_10"."AUDIT_FALLBACK_MAIL_INFO"            0 KB       0 rows
+. . exported "IDFC_10"."AUTOUPLOADER_STATUS_FAIL"            0 KB       0 rows
+. . exported "IDFC_10"."AUTOUPLOADER_STATUS_SUCCESS"         0 KB       0 rows
+. . exported "IDFC_10"."CC_TRANSACTION_TYPE"                 0 KB       0 rows
+. . exported "IDFC_10"."COMM_MASTER_ARCHIVE"                 0 KB       0 rows
+. . exported "IDFC_10"."COMM_MASTER_ARCHIVE_ERROR"           0 KB       0 rows
+. . exported "IDFC_10"."COMM_MASTER_DEEPARCHIVE"             0 KB       0 rows
+. . exported "IDFC_10"."COMM_MASTER_DEEPARCHIVE_ERROR"       0 KB       0 rows
+. . exported "IDFC_10"."COMM_MASTER_LOANLOB_FILENET"         0 KB       0 rows
+. . exported "IDFC_10"."CONDITION_DEF"                       0 KB       0 rows
+. . exported "IDFC_10"."CONTENT_AUTH_DISPLAY_INFO"           0 KB       0 rows
+. . exported "IDFC_10"."CUSTOM_INDEX"                        0 KB       0 rows
+. . exported "IDFC_10"."DEFAULT_OBJECT_PROPERTIES"           0 KB       0 rows
+. . exported "IDFC_10"."INDEX_DEF"                           0 KB       0 rows
+. . exported "IDFC_10"."INS_LOAN_AGREEMENT_MASTER"           0 KB       0 rows
+. . exported "IDFC_10"."KENA_1"                              0 KB       0 rows
+. . exported "IDFC_10"."MAIL_TENANT_MAPPING"                 0 KB       0 rows
+. . exported "IDFC_10"."MASTER_INDEX_INFO"                   0 KB       0 rows
+. . exported "IDFC_10"."MESSAGE_MASTER"                      0 KB       0 rows
+. . exported "IDFC_10"."MPW_JOB_INFO"                        0 KB       0 rows
+. . exported "IDFC_10"."MP_FAILOVER_INFO"                    0 KB       0 rows
+. . exported "IDFC_10"."OBJECT_MASTER"                       0 KB       0 rows
+. . exported "IDFC_10"."OBJECT_RULES"                        0 KB       0 rows
+. . exported "IDFC_10"."PMS_JOB_INFO_HISTORY"                0 KB       0 rows
+. . exported "IDFC_10"."PROCESS_JOB_INFO"                    0 KB       0 rows
+. . exported "IDFC_10"."RA_BLOB_TRIGGERS"                    0 KB       0 rows
+. . exported "IDFC_10"."RA_CALENDARS"                        0 KB       0 rows
+. . exported "IDFC_10"."RA_CRON_TRIGGERS"                    0 KB       0 rows
+. . exported "IDFC_10"."RA_DS_CALCOLS_INFO"                  0 KB       0 rows
+. . exported "IDFC_10"."RA_EVENTS"                           0 KB       0 rows
+. . exported "IDFC_10"."RA_FIRED_TRIGGERS"                   0 KB       0 rows
+. . exported "IDFC_10"."RA_PAUSED_TRIGGER_GRPS"              0 KB       0 rows
+. . exported "IDFC_10"."RA_REPORT_COLUMNS"                   0 KB       0 rows
+. . exported "IDFC_10"."RA_SHARE_DASHBOARD_ROLES"            0 KB       0 rows
+. . exported "IDFC_10"."RA_SIMPLE_TRIGGERS"                  0 KB       0 rows
+. . exported "IDFC_10"."RA_SIMPROP_TRIGGERS"                 0 KB       0 rows
+. . exported "IDFC_10"."RA_TRIGGERS"                         0 KB       0 rows
+. . exported "IDFC_10"."REPORT_EXPORTS"                      0 KB       0 rows
+. . exported "IDFC_10"."RS_DIRECTPRINT_JOB"                  0 KB       0 rows
+. . exported "IDFC_10"."RS_TRANSACTION_INFO"                 0 KB       0 rows
+. . exported "IDFC_10"."RS_WHATSAPP_JOB"                     0 KB       0 rows
+. . exported "IDFC_10"."SHORTENURL_MASTER_DUPLICATE"         0 KB       0 rows
+. . exported "IDFC_10"."SMS_MODULE_MAPPING"                  0 KB       0 rows
+. . exported "IDFC_10"."UNISERVE_AUTO_SCALING_INFO"          0 KB       0 rows
+. . exported "IDFC_10"."UNISERVE_GLOBAL_INFO"                0 KB       0 rows
+. . exported "IDFC_10"."UP_AUDIT_TEMPLATES"                  0 KB       0 rows
+. . exported "IDFC_10"."UP_CALENDAR_MASTER"                  0 KB       0 rows
+. . exported "IDFC_10"."UP_DATASOURCE"                       0 KB       0 rows
+. . exported "IDFC_10"."UP_DATA_TABLES"                      0 KB       0 rows
+. . exported "IDFC_10"."UP_DS_MESSAGE"                       0 KB       0 rows
+. . exported "IDFC_10"."UP_EXTERNAL_USERS_INFO"              0 KB       0 rows
+. . exported "IDFC_10"."UP_FTP_MASTER"                       0 KB       0 rows
+. . exported "IDFC_10"."UP_FTP_TENANT_MAPPING"               0 KB       0 rows
+. . exported "IDFC_10"."UP_LOGIN_INFO_TMP"                   0 KB       0 rows
+. . exported "IDFC_10"."UP_MODULE_REG_INFO"                  0 KB       0 rows
+. . exported "IDFC_10"."UP_SMSCONFIGURE"                     0 KB       0 rows
+. . exported "IDFC_10"."UP_SMS_TENANT_MAPPING"               0 KB       0 rows
+. . exported "IDFC_10"."UP_SUBSTITUTE_USERS"                 0 KB       0 rows
+. . exported "IDFC_10"."UP_TEMP_HIERARCHY"                   0 KB       0 rows
+. . exported "IDFC_10"."UP_UPLOAD_HISTORY"                   0 KB       0 rows
+. . exported "IDFC_10"."UP_UPLOAD_TEMPLATE"                  0 KB       0 rows
+. . exported "IDFC_10"."UP_USER_ACTIVE_SESSIONS"             0 KB       0 rows
+. . exported "IDFC_10"."UP_USER_CALENDAR"                    0 KB       0 rows
+. . exported "IDFC_10"."VERSION_MASTER_HTML"                 0 KB       0 rows
+Master table "SYS"."SYS_EXPORT_SCHEMA_01" successfully loaded/unloaded
+******************************************************************************
+Dump file set for SYS.SYS_EXPORT_SCHEMA_01 is:
+  /opt/oracle/admin/orcl/dpdump/idfc_1031.dmp
+Job "SYS"."SYS_EXPORT_SCHEMA_01" successfully completed at Fri Oct 31 17:46:45 2025 elapsed 0 00:02:45
